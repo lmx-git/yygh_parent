@@ -10,6 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableDiscoveryClient
 public class ServiceCmnApplication {
     public static void main(String[] args) {
+        System.out.println("分支");
         SpringApplication.run(ServiceCmnApplication.class, args);
     }
 }
